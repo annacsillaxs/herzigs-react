@@ -81,11 +81,12 @@ const Nav = styled.nav`
 		color: var(--clr-primary-5);
 		background: transparent;
 		border-color: transparent;
+		transform: rotate(0deg);
 		transition: var(--transition);
 		cursor: pointer;
 	}
 	.nav-toggle:hover {
-		color: var(--clr-primary-1);
+		color: var(--clr-primary-10);
 		transform: rotate(90deg);
 	}
 	.logo {
