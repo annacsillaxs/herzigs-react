@@ -1,0 +1,142 @@
+/* Home Page */
+.home__hero {
+	background-image: url("../images/about_bg.jpeg");
+}
+.slider__slogan {
+	background-image: url("../images/slogan.jpeg");
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.slider__fleet {
+	background-image: url("../images/fleet.jpeg");
+	flex-direction: column;
+}
+.slider__partnership {
+	background-image: url("../images/partnership.jpeg");
+	flex-direction: column;
+}
+/* About Page */
+.about__hero {
+	background-image: url("../images/family.jpeg");
+	padding-inline: 10%;
+}
+
+/* Services Page */
+.services__hero {
+	background-image: url("../images/other.jpeg");
+}
+.services__hero.exhaust {
+	background-image: url("../images/exhaust.jpeg");
+}
+.services__hero.fleet {
+	background-image: url("../images/fleet.jpeg");
+}
+.services__hero.engine {
+	background-image: url("../images/engine.jpeg");
+}
+.services__hero.steering {
+	background-image: url("../images/steering.jpeg");
+}
+.services__hero.suspension {
+	background-image: url("../images/suspension.jpeg");
+}
+.services__hero.tyres {
+	background-image: url("../images/tyres.jpeg");
+}
+.services__hero.bodywork {
+	background-image: url("../images/bodywork.jpeg");
+}
+.services__hero.mobileDent {
+	background-image: url("../images/mobile_dent_bg.jpeg");
+}
+.services__hero.mobileServicing {
+	background-image: url("../images/mobile_service_bg.jpeg");
+}
+.services__hero.mobileFleet {
+	background-image: url("../images/fleet.jpeg");
+}
+.services__hero.mot {
+	background-image: url("../images/mot_bg.jpeg");
+}
+.services__hero.sensors {
+	background-image: url("../images/parking_bg.jpeg");
+}
+.services__hero.hands {
+	background-image: url("../images/hands_bg.jpeg");
+}
+.services__hero.mobileAudio {
+	background-image: url("../images/audio_bg.jpeg");
+}
+.services__hero.mobileRecovery {
+	background-image: url("../images/recovery_bg.jpeg");
+}
+
+/* Single Service Page */
+.bodywork__slider .slider__1 {
+	background-image: url("../images/repaired_car_1.jpg");
+}
+.bodywork__slider .slider__2 {
+	background-image: url("../images/repaired_car_2.jpeg");
+}
+.bodywork__slider .slider__3 {
+	background-image: url("../images/repaired_car_3.jpeg");
+}
+
+.mobileDent__slider .slider__1 {
+	background-image: url("../images/mobile_dent_1.jpeg");
+}
+.mobileDent__slider .slider__2 {
+	background-image: url("../images/mobile_dent_2.jpg");
+}
+.mobileDent__slider .slider__3 {
+	background-image: url("../images/mobile_dent_3.jpg");
+}
+
+.services__outlet img {
+	margin-inline: auto;
+}
+
+/* Partnership Page */
+.partnership__hero {
+	background-image: url("../images/partnership_hero.jpeg");
+}
+
+/* Partner Page */
+.slider__1.olivia {
+	background-image: url("../images/olivia_6.jpeg");
+}
+.slider__2.olivia {
+	background-image: url("../images/olivia_7.jpeg");
+}
+.slider__3.olivia {
+	background-image: url("../images/olivia_8.jpeg");
+}
+.slider__4.olivia {
+	background-image: url("../images/olivia_2.jpeg");
+}
+.slider__5.olivia {
+	background-image: url("../images/olivia_5.jpeg");
+}
+
+.slider__1.matt {
+	background-image: url("../images/matt_1.jpeg");
+}
+.slider__2.matt {
+	background-image: url("../images/matt_2.jpeg");
+}
+.slider__3.matt {
+	background-image: url("../images/matt_3.jpeg");
+}
+.slider__4.matt {
+	background-image: url("../images/matt_4.jpeg");
+}
+.slider__5.matt {
+	background-image: url("../images/matt_5.jpeg");
+}
+
+/* Restoration Page */
+.restoration__hero {
+	background-image: url("../images/restoration.jpeg");
+}
+.restoration__bottom {
+	background-image: url("../images/restoration_bg.jpeg");
+}
