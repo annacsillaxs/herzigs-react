@@ -113,7 +113,6 @@ const Nav = styled.nav`
 		height: 0;
 		overflow: hidden;
 		transition: var(--transition);
-		/* display: none; */
 	}
 	.links {
 		display: flex;
