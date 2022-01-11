@@ -16,7 +16,7 @@ const SingleServicePage = () => {
 		const navHeight = 94;
 
 		window.scrollTo({ top: top - navHeight, left: 0, behavior: "smooth" });
-	}, [serviceId]);
+	}, [serviceId, service.contentTitle]);
 
 	return (
 		<section className="services__outlet container">

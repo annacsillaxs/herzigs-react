@@ -9,7 +9,6 @@ import styled from "styled-components";
 const PartnerPage = () => {
 	const { partnerId } = useParams();
 	const partner = getService(partnerId, partnership);
-	console.log(partner);
 
 	useEffect(() => {
 		document.title = `HERZIGS | Partnership - ${partner.contentTitle}`;
