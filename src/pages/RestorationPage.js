@@ -39,8 +39,8 @@ const Section = styled.section`
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 180px;
-	width: 90vw;
-	max-width: 90%;
+	width: 85%;
+	max-width: 90vw;
 	margin-inline: auto;
 
 	@media screen and (min-width: 500px) {
