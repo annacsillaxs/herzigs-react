@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router";
 import Slider from "../components/Slider";
 import { getService, services } from "../data";
@@ -8,19 +8,14 @@ import { FiTool } from "react-icons/fi";
 const SingleServicePage = () => {
 	const { serviceId } = useParams();
 	const service = getService(serviceId, services);
-	const containerRef = useRef(null);
 
 	useEffect(() => {
 		document.title = `HERZIGS | Services - ${service.contentTitle}`;
-		const top = containerRef.current.offsetTop;
-		const navHeight = 94;
-
-		window.scrollTo({ top: top - navHeight, left: 0, behavior: "smooth" });
 	}, [serviceId, service.contentTitle]);
 
 	return (
 		<section className="services__outlet container">
-			<h2 ref={containerRef}>{service.contentTitle} </h2>
+			<h2>{service.contentTitle} </h2>
 			<h3>{service.h3}</h3>
 			{service.text.map((p, idx) => {
 				return <p key={idx}>{p}</p>;
